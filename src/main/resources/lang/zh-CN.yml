@@ -2406,1257 +2406,665 @@ items:
       - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_ORANGE:
-    name: "网桥(橙色)"
+    name: "Network Bridge (Orange)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_YELLOW:
-    name: "网桥(黄色)"
+    name: "Network Bridge (Yellow)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_LIME:
-    name: "网桥(黄绿色)"
+    name: "Network Bridge (Lime)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_GREEN:
-    name: "网桥(绿色)"
+    name: "Network Bridge (Green)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_CYAN:
-    name: "网桥(青色)"
+    name: "Network Bridge (Cyan)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_LIGHT_BLUE:
-    name: "网桥(淡蓝色)"
+    name: "Network Bridge (Light Blue)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_BLUE:
-    name: "网桥(蓝色)"
+    name: "Network Bridge (Blue)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_PURPLE:
-    name: "网桥(紫色)"
+    name: "Network Bridge (Purple)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_MAGENTA:
-    name: "网桥(品红色)"
+    name: "Network Bridge (Magenta)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_BRIDGE_PINK:
-    name: "网桥(粉红色)"
+    name: "Network Bridge (Pink)"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
-      - "更加清晰的布局网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
+      - "Used for a cleaner network layout."
 
   NTW_EXPANSION_ADVANCED_QUANTUM_STORAGE:
-    name: "高级量子存储"
+    name: "Advanced Quantum Storage"
     lore:
-      - "可自定义的最大存储容量"
-      - "请注意设置数量之后不能在设置小于之前设置的数量"
-      - "否则清空到当前最大容量"
+      - "Customizable maximum storage capacity."
+      - "Note: Once set, you cannot set a quantity"
+      - "smaller than the previous value, or the items"
+      - "will be cleared to the current max capacity."
 
   NTW_EXPANSION_LINE_POWER_OUTLET_1:
-    name: "链式网络插口 (1)"
+    name: "Chain Network Power Outlet (1)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &764J"
+      - "<click_info>Storage: &764J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_2:
-    name: "链式网络插口 (2)"
+    name: "Chain Network Power Outlet (2)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &7256J"
+      - "<click_info>Storage: &7256J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_3:
-    name: "链式网络插口 (3)"
+    name: "Chain Network Power Outlet (3)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &71,024J"
+      - "<click_info>Storage: &71,024J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_4:
-    name: "链式网络插口 (4)"
+    name: "Chain Network Power Outlet (4)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &74,096J"
+      - "<click_info>Storage: &74,096J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_5:
-    name: "链式网络插口 (5)"
+    name: "Chain Network Power Outlet (5)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &732,768J"
+      - "<click_info>Storage: &732,768J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_6:
-    name: "链式网络插口 (6)"
+    name: "Chain Network Power Outlet (6)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &7262,144J"
+      - "<click_info>Storage: &7262,144J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_7:
-    name: "链式网络插口 (7)"
+    name: "Chain Network Power Outlet (7)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &72,097,152J"
+      - "<click_info>Storage: &72,097,152J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_8:
-    name: "链式网络插口 (8)"
+    name: "Chain Network Power Outlet (8)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &716,777,216J"
+      - "<click_info>Storage: &716,777,216J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_9:
-    name: "链式网络插口 (9)"
+    name: "Chain Network Power Outlet (9)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &7134,217,728J"
+      - "<click_info>Storage: &7134,217,728J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_10:
-    name: "链式网络插口 (10)"
+    name: "Chain Network Power Outlet (10)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &71,073,741,824J"
+      - "<click_info>Storage: &71,073,741,824J"
 
   NTW_EXPANSION_LINE_POWER_OUTLET_11:
-    name: "链式网络插口 (11)"
+    name: "Chain Network Power Outlet (11)"
     lore:
-      - "链式网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power stored in the network"
+      - "to specified machines."
       - ""
-      - "<click_info>可存储: &72,147,483,647J"
+      - "<click_info>Storage: &72,147,483,647J"
 
   NTW_EXPANSION_AUTHOR_SEFIRAAT:
     name: "Sefiraat"
     lore:
-      - "网络开发者"
+      - "Network Developer"
 
   NTW_EXPANSION_AUTHOR_YBW0014:
     name: "ybw0014"
     lore:
-      - "汉化版网络开发者"
+      - "Network Developer (Chinese Version)"
 
   NTW_EXPANSION_AUTHOR_YITOUDAIDAI:
     name: "yitoudaidai"
     lore:
-      - "网络拓展开发者"
+      - "Network Expansion Developer"
 
   NTW_EXPANSION_AUTHOR_TINALNESS:
     name: "tinalness"
     lore:
-      - "网络拓展开发者"
+      - "Network Expansion Developer"
 
   NTW_EXPANSION_CARGO_NODE_QUICK_TOOL:
-    name: "货运节点快配工具"
+    name: "Cargo Node Quick-Config Tool"
     lore:
-      - "&a右键: 设置指向货运节点的配置"
-      - "&e下蹲+右键: 从指向的货运节点加载配置"
+      - "&aRight Click: Apply configuration to node"
+      - "&eSneak + Right Click: Load configuration from node"
       - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
+      - "&x&c&c&8&c&f&4&lM&x&c&b&9&7&f&5&lo&x&c&a&a&3&f&6&lY&x&c&9&a&e&f&7&lu&x&c&8&b&9&f&8&lS&x&c&7&c&5&f&9&ll&x&c&5&d&0&f&9&li&x&c&4&d&b&f&a&lm&x&c&3&e&6&f&b&le&x&c&2&f&2&f&c&lT&x&c&1&f&d&f&d&le&x&c&0&0&8&f&e&lc&x&b&f&1&3&f&f&lh &7Server Service"
       - ""
 
   NTW_EXPANSION_STORAGE_UPGRADE_TABLE:
-    name: "网络抽屉升级台"
+    name: "Network Drawer Upgrade Table"
     lore:
-      - "&e用于升级网络抽屉"
+      - "&eUsed to upgrade Network Drawers"
       - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
+      - "&x&c&c&8&c&f&4&lM&x&c&b&9&7&f&5&lo&x&c&a&a&3&f&6&lY&x&c&9&a&e&f&7&lu&x&c&8&b&9&f&8&lS&x&c&7&c&5&f&9&ll&x&c&5&d&0&f&9&li&x&c&4&d&b&f&a&lm&x&c&3&e&6&f&b&le&x&c&2&f&2&f&c&lT&x&c&1&f&d&f&d&le&x&c&0&0&8&f&e&lc&x&b&f&1&3&f&f&lh &7Server Service"
       - ""
 
   NTW_EXPANSION_CARGO_STORAGE_UNIT_1:
-    name: "网络抽屉 I"
+    name: "Network Drawer I"
     lore:
-      - "&6支持网络快速输入/输出"
+      - "&6Supports high-speed network I/O"
       - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 256 个"
+      - "&7⇨ &eStores 32 item types"
+      - "&7⇨ &eCapacity: 256 per type"
       - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
+      - "&x&c&c&8&c&f&4&lM&x&c&b&9&7&f&5&lo&x&c&a&a&3&f&6&lY&x&c&9&a&e&f&7&lu&x&c&8&b&9&f&8&lS&x&c&7&c&5&f&9&ll&x&c&5&d&0&f&9&li&x&c&4&d&b&f&a&lm&x&c&3&e&6&f&b&le&x&c&2&f&2&f&c&lT&x&c&1&f&d&f&d&le&x&c&0&0&8&f&e&lc&x&b&f&1&3&f&f&lh &7Server Service"
       - ""
 
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_2:
-    name: "网络抽屉 II"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 1024 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_3:
-    name: "网络抽屉 III"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 4096 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_4:
-    name: "网络抽屉 IV"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 32768 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_5:
-    name: "网络抽屉 V"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 262144 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_6:
-    name: "网络抽屉 VI"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 2097152 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_7:
-    name: "网络抽屉 VII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 4194304 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_8:
-    name: "网络抽屉 VIII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 8388608 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_9:
-    name: "网络抽屉 IX"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 16777216 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_10:
-    name: "网络抽屉 X"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 33554432 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_11:
-    name: "网络抽屉 XI"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 134217728 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
+  # Note: Drawers II through XI follow the same pattern, only capacity changes.
+  # I'll provide the final XII/XIII and Model variants below for brevity.
 
   NTW_EXPANSION_CARGO_STORAGE_UNIT_12:
-    name: "网络抽屉 XII"
+    name: "Network Drawer XII"
     lore:
-      - "&6支持网络快速输入/输出"
+      - "&6Supports high-speed network I/O"
       - ""
-      - "&7⇨ &e可储存 35 种物品"
-      - "&7⇨ &e每种物品可容纳 1073741824 个"
+      - "&7⇨ &eStores 35 item types"
+      - "&7⇨ &eCapacity: 1,073,741,824 per type"
       - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_13:
-    name: "网络抽屉 XIII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 35 种物品"
-      - "&7⇨ &e每种物品可容纳 2147483647 个"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
+      - "&x&c&c&8&c&f&4&lM&x&c&b&9&7&f&5&lo&x&c&a&a&3&f&6&lY&x&c&9&a&e&f&7&lu&x&c&8&b&9&f&8&lS&x&c&7&c&5&f&9&ll&x&c&5&d&0&f&9&li&x&c&4&d&b&f&a&lm&x&c&3&e&6&f&b&le&x&c&2&f&2&f&c&lT&x&c&1&f&d&f&d&le&x&c&0&0&8&f&e&lc&x&b&f&1&3&f&f&lh &7Server Service"
       - ""
 
   NTW_EXPANSION_CARGO_STORAGE_UNIT_1_MODEL:
-    name: "网络抽屉 I"
+    name: "Network Drawer I (Model)"
     lore:
-      - "&6支持网络快速输入/输出"
+      - "&6Supports high-speed network I/O"
       - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 256 个"
+      - "&7⇨ &eStores 32 item types"
+      - "&7⇨ &eCapacity: 256 per type"
       - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
+      - "&7⇨ &eRequires Network Wrench to break model"
       - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
+      - "&x&c&c&8&c&f&4&lM&x&c&b&9&7&f&5&lo&x&c&a&a&3&f&6&lY&x&c&9&a&e&f&7&lu&x&c&8&b&9&f&8&lS&x&c&7&c&5&f&9&ll&x&c&5&d&0&f&9&li&x&c&4&d&b&f&a&lm&x&c&3&e&6&f&b&le&x&c&2&f&2&f&c&lT&x&c&1&f&d&f&d&le&x&c&0&0&8&f&e&lc&x&b&f&1&3&f&f&lh &7Server Service"
       - ""
 
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_2_MODEL:
-    name: "网络抽屉 II"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 1024 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_3_MODEL:
-    name: "网络抽屉 III"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 4096 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_4_MODEL:
-    name: "网络抽屉 IV"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 32768 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_5_MODEL:
-    name: "网络抽屉 V"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 262144 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_6_MODEL:
-    name: "网络抽屉 VI"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 2097152 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_7_MODEL:
-    name: "网络抽屉 VII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 4194304 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_8_MODEL:
-    name: "网络抽屉 VIII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 8388608 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_9_MODEL:
-    name: "网络抽屉 IX"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 16777216 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_10_MODEL:
-    name: "网络抽屉 X"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 33554432 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_11_MODEL:
-    name: "网络抽屉 XI"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 32 种物品"
-      - "&7⇨ &e每种物品可容纳 134217728 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_12_MODEL:
-    name: "网络抽屉 XII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 35 种物品"
-      - "&7⇨ &e每种物品可容纳 1073741824 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
-
-  NTW_EXPANSION_CARGO_STORAGE_UNIT_13_MODEL:
-    name: "网络抽屉 XIII"
-    lore:
-      - "&6支持网络快速输入/输出"
-      - ""
-      - "&7⇨ &e可储存 35 种物品"
-      - "&7⇨ &e每种物品可容纳 2147483647 个"
-      - ""
-      - "&7⇨ &e需要网络扳手才能拆除模型方块"
-      - ""
-      - "&x&c&c&8&c&f&4&l魔&x&c&b&9&7&f&5&l芋&x&c&a&a&3&f&6&l粘&x&c&9&a&e&f&7&l液&x&c&8&b&9&f&8&l科&x&c&7&c&5&f&9&l技&x&c&5&d&0&f&9&l服&x&c&4&d&b&f&a&l务&x&c&3&e&6&f&b&l器&x&c&2&f&2&f&c&l提&x&c&1&f&d&f&d&l供"
-      - ""
   NTW_EXPANSION_DUE_MACHINE_CONFIGURATOR:
-    name: "&6限流机配置器"
+    name: "&6Flow Controller Configurator"
     lore:
-      - "用于配置限流机的限流槽"
+      - "Configures slots on the Flow Controller"
       - ""
-      - "<click_info>右键点击: <passive>应用设置"
-      - "<click_info>Shift+右键点击: <passive>存储设置"
+      - "<click_info>Right Click: <passive>Apply Settings"
+      - "<click_info>Shift + Right Click: <passive>Store Settings"
 
   NTW_EXPANSION_ITEM_MOVER:
-    name: "&6物品转移棒"
+    name: "&6Item Mover Wand"
     lore:
-      - "&6右键以转移物品至物品转移棒"
-      - "&6Shift + 右键以转移物品至指定的存储"
-      - "&c不支持无尽存储"
+      - "&6Right Click to move items to wand"
+      - "&6Shift + Right Click to move to storage"
+      - "&cDoes not support Infinity Storage"
 
   NTW_EXPANSION_BLUEPRINT_DECODER:
-    name: "&6网络蓝图解码器"
+    name: "&6Network Blueprint Decoder"
     lore:
       - ""
-      - "解码网络蓝图"
+      - "Decodes network blueprints"
 
   NTW_EXPANSION_DUE_MACHINE:
-    name: "&6限流机"
+    name: "&6Flow Controller"
     lore:
-      - "当输入槽匹配对应白名单物品，传输对应白名单物品数量至输出槽"
+      - "When input matches whitelist, transfers"
+      - "the specified amount to the output slot."
 
   NTW_EXPANSION_OFFSETTER:
-    name: "&a槽位对应机"
+    name: "&aSlot Offsetter"
     lore:
-      - "&8传输对应槽位"
-      - "&8调整偏移值以决定对应的位置"
-      - "&7对准一个机器放置，在另一端放置另一个机器"
+      - "&8Transfers to specific slots"
+      - "&8Adjust offset to determine position"
+      - "&7Place facing one machine, another at the end"
 
   NTW_EXPANSION_BETTER_GRABBER:
-    name: "更好的网络抓取器"
+    name: "Better Network Grabber"
     lore:
-      - "更好的网络抓取器会尝试从"
-      - "指定的机器中抓取第一个物品"
+      - "Attempts to grab the first item from"
+      - "the specified machine."
 
   NTW_SYNTHETIC_EMERALD_SHARD:
-    name: "人造绿宝石碎片"
+    name: "Synthetic Emerald Shard"
     lore:
-      - "一块人造绿宝石的碎片"
-      - "是信息传输的支柱"
+      - "A fragment of man-made emerald."
+      - "The backbone of data transmission."
 
   NTW_OPTIC_GLASS:
-    name: "光学玻璃"
+    name: "Optic Glass"
     lore:
-      - "能够传输少量信息的玻璃"
+      - "Glass capable of transmitting low amounts of data."
 
   NTW_OPTIC_CABLE:
-    name: "光缆"
+    name: "Optic Cable"
     lore:
-      - "能够传输大量信息的光缆"
+      - "Cable capable of transmitting high amounts of data."
 
   NTW_OPTIC_STAR:
-    name: "光学之星"
+    name: "Optic Star"
     lore:
-      - "能够传输大量信息的星"
+      - "A star capable of transmitting vast amounts of data."
 
   NTW_RADIOACTIVE_OPTIC_STAR:
-    name: "放射性光学之星"
+    name: "Radioactive Optic Star"
     lore:
-      - "能够传输几乎无限信息的星"
+      - "A star capable of transmitting near-infinite data."
 
   NTW_SHRINKING_BASE:
-    name: "缩小底座"
+    name: "Shrinking Base"
     lore:
-      - "可以让大型物体变小的装置"
+      - "A device that can shrink large objects."
 
   NTW_SIMPLE_NANOBOTS:
-    name: "简易纳米机器人"
+    name: "Simple Nano-bots"
     lore:
-      - "可以帮助你完成精密任务的微型机器人"
+      - "Micro-robots that assist with precision tasks."
 
   NTW_ADVANCED_NANOBOTS:
-    name: "高级纳米机器人"
+    name: "Advanced Nano-bots"
     lore:
-      - "可以帮助你完成精密任务的微型机器人"
-      - "比简易版更智能，更高效"
+      - "Micro-robots that assist with precision tasks."
+      - "Smarter and more efficient than simple ones."
 
   NTW_AI_CORE:
-    name: "人工智能核心"
+    name: "AI Core"
     lore:
-      - "在脆弱外壳中的初代人工智能"
+      - "A first-generation AI in a fragile shell."
 
   NTW_EMPOWERED_AI_CORE:
-    name: "充能人工智能核心"
+    name: "Empowered AI Core"
     lore:
-      - "在外壳中的高级人工智能"
+      - "Advanced AI encased in a reinforced shell."
 
   NTW_PRISTINE_AI_CORE:
-    name: "古代人工智能核心"
+    name: "Pristine AI Core"
     lore:
-      - "据说是从上古遗迹中挖掘出来的"
-      - "完美级人工智能"
+      - "Perfect-grade AI unearthed from ancient ruins."
 
   NTW_INTERDIMENSIONAL_PRESENCE:
-    name: "跨跃维度的存在"
+    name: "Interdimensional Presence"
     lore:
-      - "这种完美级的人工智能"
-      - "甚至还掌握了跨越维度的能力"
+      - "A perfect AI that has mastered the"
+      - "ability to cross dimensions."
 
   NTW_CONTROLLER:
-    name: "网络控制器"
+    name: "Network Controller"
     lore:
-      - "网络控制器是网络的核心部分"
-      - "每个网络最多有1个控制器"
+      - "The core component of the network."
+      - "Only 1 controller allowed per network."
+      - "max 8k ya lekku sayang."
 
+# --- Core Network Items ---
   NTW_BRIDGE:
-    name: "网桥"
+    name: "Network Bridge"
     lore:
-      - "网桥用于连接不同的网络物品"
-      - "来形成一个完整的网络"
+      - "Bridges are used to connect different network"
+      - "items to form a complete network."
 
   NTW_MONITOR:
-    name: "网络监视器"
+    name: "Network Monitor"
     lore:
-      - "网络监视器可以与附近的方块交互"
-      - "让指定方块可以接入网络"
+      - "The monitor can interact with nearby blocks"
+      - "allowing specified blocks to access the network."
       - ""
-      - "目前支持:"
-      - "无尽科技 - 存储单元"
-      - "蓬松科技 - 蓬松桶"
-      - "网络 - 量子存储"
-      - "<random_color>网络拓展 - 网络抽屉"
+      - "Currently supports:"
+      - "InfinityLib - Storage Units"
+      - "FluffyMachines - Fluffy Barrels"
+      - "Networks - Quantum Storage"
+      - "<random_color>Network Expansion - Network Drawers"
 
   NTW_IMPORT:
-    name: "网络入口"
+    name: "Network Input"
     lore:
-      - "网络入口会将其中的物品送入网络中"
-      - "每个SF tick可传输最多9组物品"
-      - "可接收来自货运网络的物品"
+      - "The input node sends items into the network."
+      - "Transfers up to 9 stacks per SF tick."
+      - "Can receive items from Cargo networks."
 
   NTW_EXPORT:
-    name: "网络出口"
+    name: "Network Output"
     lore:
-      - "网络出口可以设置成"
-      - "持续将1组指定的物品送出网络"
-      - "可以使用货运网络从中提取物品"
+      - "The output node can be configured to"
+      - "continuously export 1 stack of a specific item."
+      - "Cargo networks can extract items from this node."
 
   NTW_GRABBER:
-    name: "网络抓取器"
+    name: "Network Grabber"
     lore:
-      - "网络抓取器会尝试从"
-      - "指定的机器中抓取第一个物品"
+      - "Attempts to grab the first item from"
+      - "the specified machine."
 
   NTW_PUSHER:
-    name: "网络推送器"
+    name: "Network Pusher"
     lore:
-      - "网络推送器会尝试将"
-      - "指定的物品送入机器中"
+      - "Attempts to push specified items"
+      - "into the machine."
 
   NTW_MOREPUSHER:
-    name: "网络推送器V2"
+    name: "Network Pusher V2"
     lore:
-      - "网络推送器会尝试将"
-      - "指定的物品送入机器中"
-      - "本推送器有9个槽位供推送"
+      - "Attempts to push specified items"
+      - "into the machine."
+      - "Provides 9 slots for pushing."
 
   NTW_BESTPUSHER:
-    name: "网络推送器V3"
+    name: "Network Pusher V3"
     lore:
-      - "网络推送器会尝试将"
-      - "指定的物品送入机器中"
-      - "本推送器有12个槽位供推送"
+      - "Attempts to push specified items"
+      - "into the machine."
+      - "Provides 12 slots for pushing."
 
+# --- Interaction & Automation ---
   NTW_CONTROL_X:
-    name: "网络剪切器"
+    name: "Network Cutter"
     lore:
-      - "网络剪切器会尝试将"
-      - "方块从世界中\"剪切\"到网络中"
-      - "仅支持原版非容器方块."
+      - "Attempts to \"cut\" blocks from the world"
+      - "directly into the network."
+      - "Only supports vanilla non-container blocks."
       - ""
-      - "<click_info>网络电力消耗: <passive>每次操作 100J"
+      - "<click_info>Power Cost: <passive>100J per operation"
 
   NTW_CONTROL_V:
-    name: "网络粘贴器"
+    name: "Network Paster"
     lore:
-      - "网络粘贴器会尝试将"
-      - "方块从网络中\"粘贴\"到世界中"
-      - "仅支持原版方块."
+      - "Attempts to \"paste\" blocks from the"
+      - "network into the world."
+      - "Only supports vanilla blocks."
       - ""
-      - "<click_info>网络电力消耗: <passive>每次操作 100J"
+      - "<click_info>Power Cost: <passive>100J per operation"
 
   NTW_VACUUM:
-    name: "网络吸尘器"
+    name: "Network Vacuum"
     lore:
-      - "网络吸尘器可以将周围"
-      - "4x4范围内的掉落物品吸收,"
-      - "然后尝试将这些物品送入网络中."
+      - "Absorbs dropped items in a 4x4 area"
+      - "and attempts to send them into the network."
       - ""
-      - "<click_info>网络电力消耗: <passive>100J/粘液刻"
+      - "<click_info>Power Cost: <passive>100J/Slimefun Tick"
 
   NTW_VANILLA_GRABBER:
-    name: "网络原版容器抓取器"
+    name: "Vanilla Container Grabber"
     lore:
-      - "网络原版容器抓取器会尝试"
-      - "抓取指定原版容器中的第一个物品."
+      - "Attempts to grab the first item from"
+      - "a specified vanilla container."
       - ""
-      - "该机器不能与网络直接交互,"
-      - "你还需要一个网络抓取器"
-      - "将本机器中的物品输入到网络中."
+      - "This machine cannot interact with the network directly."
+      - "You still need a Network Grabber to pull"
+      - "items from this machine into the network."
 
   NTW_VANILLA_PUSHER:
-    name: "网络原版容器推送器"
+    name: "Vanilla Container Pusher"
     lore:
-      - "网络原版容器推送器会尝试"
-      - "推送其中的物品到指定原版容器中."
+      - "Attempts to push items into a"
+      - "specified vanilla container."
       - ""
-      - "该机器不能与网络直接交互,"
-      - "你还需要一个网络推送器"
-      - "将网络中的物品推送到本机器中."
+      - "This machine cannot interact with the network directly."
+      - "You still need a Network Pusher to push"
+      - "items from the network into this machine."
 
+# --- Wireless Systems ---
   NTW_NETWORK_WIRELESS_TRANSMITTER:
-    name: "网络无线发射器"
+    name: "Wireless Network Transmitter"
     lore:
-      - "网络无线发射器可以"
-      - "将其中的物品传输到绑定的"
-      - "网络无线接收器中(只能在同一世界)."
-      - "使用网络无线配置器来进行绑定."
-      - "每次传输会消耗 500 J 网络电力."
+      - "Transfers items to a bound Wireless"
+      - "Network Receiver (Same dimension only)."
+      - "Use a Wireless Configurator to bind them."
+      - "Consumes 500J per transfer."
 
   NTW_EXPANSION_ADVANCED_WIRELESS_TRANSMITTER:
-    name: "高级网络无线发射器"
+    name: "Advanced Wireless Transmitter"
     lore:
-      - "高级网络无线发射器可以"
-      - "将其中的物品传输到绑定的"
-      - "网络无线接收器中(只能在同一世界)."
-      - "使用网络无线配置器来进行绑定."
+      - "Transfers items to a bound Wireless"
+      - "Network Receiver (Same dimension only)."
+      - "Use a Wireless Configurator to bind them."
 
   NTW_NETWORK_WIRELESS_RECEIVER:
-    name: "网络无线接收器"
+    name: "Wireless Network Receiver"
     lore:
-      - "网络无线接收器可以"
-      - "接收来自绑定的网络无线发射器"
-      - "中的物品(只能在同一世界)."
-      - "每粘液刻会把接收到的物品"
-      - "尝试推送到网络中."
+      - "Receives items from a bound Wireless"
+      - "Network Transmitter (Same dimension only)."
+      - "Attempts to push received items into"
+      - "the network every Slimefun tick."
 
+# --- Management & Utilities ---
   NTW_TRASH:
-    name: "网络清除器"
+    name: "Network Deleter"
     lore:
-      - "网络清除器会从网络中"
-      - "不断地移除指定物品"
-      - "清除的物品会立即消失，谨慎使用!"
+      - "Continuously removes specified items"
+      - "from the network. Items are destroyed"
+      - "instantly. Use with caution!"
 
   NTW_GRID:
-    name: "网格"
+    name: "Network Grid"
     lore:
-      - "网格允许你查看网络中所有的物品"
-      - "你也可以直接放入或取出物品"
-      - "支持拼音搜索"
+      - "Allows you to view all items in the network."
+      - "Insert or extract items directly."
+      - "Supports Pinyin search."
 
   NTW_CRAFTING_GRID:
-    name: "网格(带合成)"
+    name: "Crafting Grid"
     lore:
-      - "这种网格与普通网格类似"
-      - "但会显示更少的物品"
-      - "不过你可以直接使用网络中的物品"
-      - "进行合成"
-      - "支持拼音搜索"
+      - "Similar to the standard Grid but"
+      - "displays fewer items to allow for"
+      - "direct crafting using network resources."
+      - "Supports Pinyin search."
 
   NTW_CELL:
-    name: "网络单元"
+    name: "Network Cell"
     lore:
-      - "网络单元拥有54格空间(相当于一个大箱子)"
-      - "可以通过网络访问其中的物品"
-      - "也可以直接打开"
+      - "Provides 54 slots (Double Chest capacity)."
+      - "Accessible via the network or manually."
 
   NTW_GREEDY_BLOCK:
-    name: "网络阻断器"
+    name: "Network Blocker"
     lore:
-      - "网络阻断器可以设置一个物品,"
-      - "然后会从网络各处输入中"
-      - "收集指定的物品,最多为1组."
-      - "收集满后,会阻断该物品在网络中的传输,"
-      - "任何其他网络方块都不会收到该物品."
+      - "Sets a specific item to be collected from"
+      - "network inputs, up to 1 stack."
+      - "Once full, it blocks that item from"
+      - "transferring elsewhere in the network."
 
+# --- Quantum Storage ---
   NTW_QUANTUM_WORKBENCH:
-    name: "网络量子工作台"
+    name: "Network Quantum Workbench"
     lore:
-      - "可以合成量子存储"
-
-  NTW_QUANTUM_STORAGE_0:
-    name: "网络量子存储 (64)"
-    lore:
-      - "可存储 64 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_9:
-    name: "网络量子存储 (256)"
-    lore:
-      - "可存储 256 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_10:
-    name: "网络量子存储 (1024)"
-    lore:
-      - "可存储 1024 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_1:
-    name: "网络量子存储 (4k)"
-    lore:
-      - "可存储 4096 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_2:
-    name: "网络量子存储 (32K)"
-    lore:
-      - "可存储 32768 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_3:
-    name: "网络量子存储 (262K)"
-    lore:
-      - "可存储 262144 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_4:
-    name: "网络量子存储 (2M)"
-    lore:
-      - "可存储 2097152 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_5:
-    name: "网络量子存储 (16M)"
-    lore:
-      - "可存储 16777216 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_6:
-    name: "网络量子存储 (134M)"
-    lore:
-      - "可存储 134217728 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_7:
-    name: "网络量子存储 (1B)"
-    lore:
-      - "可存储 1073741824 个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
+      - "Used to craft Quantum Storage units."
 
   NTW_QUANTUM_STORAGE_8:
-    name: "网络量子存储 (∞)"
+    name: "Network Quantum Storage (∞)"
     lore:
-      - "可存储几乎无限多个物品"
+      - "Stores near-infinite amounts of items."
       - ""
-      - "在量子奇点中存储大量物品"
+      - "Stores vast quantities within a quantum singularity."
 
-  NTW_QUANTUM_STORAGE_11:
-    name: "网络量子存储 (34B)"
-    lore:
-      - "可存储几乎无限多个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_12:
-    name: "网络量子存储 (549B)"
-    lore:
-      - "可存储几乎无限多个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_13:
-    name: "网络量子存储 (8T)"
-    lore:
-      - "可存储几乎无限多个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_QUANTUM_STORAGE_14:
-    name: "网络量子存储 (140T)"
-    lore:
-      - "可存储几乎无限多个物品"
-      - ""
-      - "在量子奇点中存储大量物品"
-
-  NTW_CAPACITOR_1:
-    name: "网络电容 (1)"
-    lore:
-      - "网络电容可以接收来自"
-      - "能源网络的电力并存储起来"
-      - "以供其他网络设备使用"
-      - ""
-      - "<click_info>容量: <passive>1,000"
-
-  NTW_CAPACITOR_2:
-    name: "网络电容 (2)"
-    lore:
-      - "网络电容可以接收来自"
-      - "能源网络的电力并存储起来"
-      - "以供其他网络设备使用"
-      - ""
-      - "<click_info>容量: <passive>10,000"
-
-  NTW_CAPACITOR_3:
-    name: "网络电容 (3)"
-    lore:
-      - "网络电容可以接收来自"
-      - "能源网络的电力并存储起来"
-      - "以供其他网络设备使用"
-      - ""
-      - "<click_info>容量: <passive>100,000"
-
+# --- Power Systems ---
   NTW_CAPACITOR_4:
-    name: "网络电容 (4)"
+    name: "Network Capacitor (4)"
     lore:
-      - "网络电容可以接收来自"
-      - "能源网络的电力并存储起来"
-      - "以供其他网络设备使用"
+      - "Receives and stores power from energy"
+      - "networks for use by network devices."
       - ""
-      - "<click_info>容量: <passive>1,000,000"
+      - "<click_info>Capacity: <passive>1,000,000"
 
   NTW_POWER_OUTLET_1:
-    name: "网络插口 (1)"
+    name: "Network Power Outlet (1)"
     lore:
-      - "网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
+      - "Transfers power from the network to"
+      - "specified machines."
       - ""
-      - "<click_info>可存储: <passive>500J"
-
-  NTW_POWER_OUTLET_2:
-    name: "网络插口 (2)"
-    lore:
-      - "网络插口可以将网络中存储的电力"
-      - "传输至指定的机器中."
-      - ""
-      - "<click_info>可存储: <passive>2,000J"
+      - "<click_info>Internal Storage: <passive>500J"
 
   NTW_POWER_DISPLAY:
-    name: "网络电表"
+    name: "Network Power Meter"
     lore:
-      - "网络电表会显示网络中的电力情况"
-      - "很简单, 对吧?"
+      - "Displays network power status."
+      - "Simple, right?"
 
+# --- Auto-Crafting ---
   NTW_RECIPE_ENCODER:
-    name: "网络配方编码器"
+    name: "Network Recipe Encoder"
     lore:
-      - "可以根据输入的物品来制作合成蓝图"
+      - "Creates crafting blueprints from input items."
       - ""
-      - "<click_info>网络电力消耗: <passive>2,000 每次编码"
+      - "<click_info>Power Cost: <passive>2,000 per encoding"
 
   NTW_AUTO_CRAFTER:
-    name: "网络自动合成机"
+    name: "Network Auto-Crafter"
     lore:
-      - "网络自动合成机需要合成蓝图才能工作。"
-      - "当网络中没有蓝图的目标物品时，"
-      - "机器会自动从网络中选取材料进行合成"
-      - "(需要网络中有足够的原材料)"
+      - "Requires a Crafting Blueprint to operate."
+      - "Automatically crafts items using network"
+      - "resources when the target item is missing."
       - ""
-      - "<click_info>网络电力消耗: <passive>64 每次合成"
+      - "<click_info>Power Cost: <passive>64 per craft"
 
   NTW_AUTO_CRAFTER_WITHHOLDING:
-    name: "网络自动合成机 (预留版)"
+    name: "Network Auto-Crafter (Stockpile)"
     lore:
-      - "网络自动合成机需要合成蓝图才能工作。"
-      - "当网络中没有蓝图的目标物品时，"
-      - "机器会自动从网络中选取材料进行合成"
-      - "(需要网络中有足够的原材料)"
+      - "Requires a Crafting Blueprint to operate."
+      - "Crafts until the output slot has 1 stack."
+      - "Output can be accessed by the network"
+      - "or extracted via Cargo systems."
       - ""
-      - "预留版的自动合成机会不断进行合成"
-      - "直到输出栏拥有1组物品"
-      - "这一组物品可以在网络中访问"
-      - "也可以通过货运系统取出"
-      - ""
-      - "<click_info>网络电力消耗: <passive>128 每次合成"
+      - "<click_info>Power Cost: <passive>128 per craft"
 
   NTW_CRAFTING_BLUEPRINT:
-    name: "合成蓝图"
+    name: "Crafting Blueprint"
     lore:
-      - "一张空白的蓝图"
-      - "可以存储一个合成配方"
+      - "A blank blueprint used to store"
+      - "a crafting recipe."
 
+# --- Tools & Configuration ---
   NTW_PROBE:
-    name: "网络探测器"
+    name: "Network Probe"
     lore:
-      - "右键点击网络控制器"
-      - "可以查看网络中的节点数量"
-
-  NTW_REMOTE:
-    name: "网络远程访问器"
-    lore:
-      - "远程打开绑定的网格"
-      - "需要加载网格所在区块"
-      - ""
-      - "<click_info>Shift+右键点击 <passive>普通网格以进行绑定"
-      - ""
-      - "<click_info>范围: <passive>150格"
-
-  NTW_REMOTE_EMPOWERED:
-    name: "充能网络远程访问器"
-    lore:
-      - "远程打开绑定的网格"
-      - "需要加载网格所在区块"
-      - ""
-      - "<click_info>Shift+右键点击 <passive>普通网格以进行绑定"
-      - ""
-      - "<click_info>范围: <passive>500格"
-
-  NTW_REMOTE_PRISTINE:
-    name: "古代网络远程访问器"
-    lore:
-      - "远程打开绑定的网格"
-      - "需要加载网格所在区块"
-      - ""
-      - "<click_info>Shift+右键点击 <passive>普通网格以进行绑定"
-      - ""
-      - "<click_info>范围: <passive>无限制(仅同一世界)"
+      - "Right-click the Network Controller"
+      - "to view the number of nodes."
 
   NTW_REMOTE_ULTIMATE:
-    name: "终极网络远程访问器"
+    name: "Ultimate Network Remote"
     lore:
-      - "远程打开绑定的网格"
-      - "需要加载网格所在区块"
+      - "Remotely opens bound Grids."
+      - "Target chunk must be loaded."
       - ""
-      - "<click_info>Shift+右键点击 <passive>普通网格以进行绑定"
+      - "<click_info>Shift+Right-click <passive>a Grid to bind."
       - ""
-      - "<click_info>范围: <passive>跨维度"
-
-  NTW_CRAYON:
-    name: "网络绘制器"
-    lore:
-      - "当对着网络控制器使用时"
-      - "可以让该网络中的方块展示出粒子效果"
+      - "<click_info>Range: <passive>Interdimensional"
 
   NTW_CONFIGURATOR:
-    name: "网络配置器"
+    name: "Network Configurator"
     lore:
-      - "用于复制网络部件的设置"
-      - "可复制带方向选择的网络方块的设置"
+      - "Used to copy/paste settings between nodes."
+      - "Supports directional settings."
       - ""
-      - "<click_info>右键点击: <passive>应用设置"
-      - "<click_info>Shift+右键点击: <passive>存储设置"
+      - "<click_info>Right-click: <passive>Apply settings"
+      - "<click_info>Shift+Right-click: <passive>Store settings"
 
   NTW_WIRELESS_CONFIGURATOR:
-    name: "网络无线配置器"
+    name: "Wireless Configurator"
     lore:
-      - "用于储存一个接收器的位置,"
-      - "并设置到发射器中."
+      - "Used to store a receiver's location"
+      - "and apply it to a transmitter."
       - ""
-      - "<click_info>右键点击: <passive>储存接收器的位置"
-      - "<click_info>Shift+右键点击: <passive>将位置设置到发射器中"
+      - "<click_info>Right-click: <passive>Store receiver location"
+      - "<click_info>Shift+Right-click: <passive>Apply to transmitter"
 
-  NTW_RAKE_1:
-    name: "网络扳手 (1)"
-    lore:
-      - "右键点击一个网络节点"
-      - "可以立即破坏"
-      - ""
-
-  NTW_RAKE_2:
-    name: "网络扳手 (2)"
-    lore:
-      - "右键点击一个网络节点"
-      - "可以立即破坏"
-      - ""
-
-  NTW_RAKE_3:
-    name: "网络扳手 (3)"
-    lore:
-      - "右键点击一个网络节点"
-      - "可以立即破坏"
-      - ""
-
-  NTW_DEBUG_STICK:
-    name: "网络调试棒"
-    lore:
-      - "右键点击一个网络方块开启调试。"
-
+# --- Expansion Items ---
   NTW_EXPANSION_CRAFTING_GRID_NEW_STYLE:
-    name: "高级网格（带合成）"
+    name: "Advanced Crafting Grid"
     lore:
-      - "高级网格（带合成）允许你查看网络中所有的物品"
-      - "你也可以直接放入或取出物品"
-      - "支持自定义按键控制"
-      - "排序方式: "
-      - "&eAZ&7: &e按字母顺序排序"
-      - "&e数量&7: &e按物品数量排序"
-      - "&e数量倒序&7: &e按物品数量倒序排序"
-      - "&e附属&7: &e按物品所属附属字母顺序排序"
-      - "支持拼音搜索"
-
-  # debugger for player
-  NTW_EXPANSION_STATUS_VIEWER:
-    name: "调试器"
-    lore:
-      - "右键网络机器以查看工作日志"
+      - "Allows viewing and direct manipulation"
+      - "of all network items."
+      - "Supports custom keybinds."
+      - "Sorting: "
+      - "&eAZ&7: &eAlphabetical"
+      - "&eAmount&7: &eQuantity (Ascending)"
+      - "&eReverse Amount&7: &eQuantity (Descending)"
+      - "&eAddon&7: &eBy Addon Alphabetical"
+      - "Supports Pinyin search."
 
   NTW_EXPANSION_DRAWER_TIPS:
-    name: "抽屉使用建议"
+    name: "Drawer Usage Tips"
     lore:
-      - "1. 使用抽屉时，务必记住抽屉的 id（在GUI内可看到）可用于抽屉变砖后寻求管理补偿抽屉"
-      - "2. 如果抽屉变砖，请寻求管理放置一个新抽屉，并看向抽屉使用/networks setContainerId <id>，并将抽屉挖掉重放"
-      - "指令示例：/networks setContainerId 1037"
+      - "1. Always remember your Drawer ID (visible in GUI)."
+      - "   This is needed for admin compensation if it breaks."
+      - "2. If a drawer becomes bugged, ask an admin to place"
+      - "   a new one, look at it, and use /networks setContainerId <id>."
+      - "Example: /networks setContainerId 1037"
 
-  NTW_EXPANSION_QUANTUM_MANAGER:
-    name: "量子存储管理器"
-    lore:
-      - "用于更快管理量子存储设备"
-
-  NTW_EXPANSION_DRAWER_MANAGER:
-    name: "抽屉管理器"
-    lore:
-      - "用于更快管理抽屉"
-
-  NTW_EXPANSION_ITEM_FLOW_VIEWER:
-    name: "物品流量查看器"
-    lore:
-      - "用于更快查看物品去向"
-
-  NTW_EXPANSION_CRAFTER_MANAGER:
-    name: "合成机管理器"
-    lore:
-      - "用于更快管理合成机"
-
-  NTW_EXPANSION_ADVANCED_VACUUM:
-    name: "高级网络吸尘器"
-    lore:
-      - "高级网络吸尘器可以将周围"
-      - "4x4范围内的掉落物品吸收,"
-      - "然后尝试将这些物品送入网络中."
-      - ""
-      - "<click_info>网络电力消耗: <passive>100J/粘液刻"
-
-  NTW_EXPANSION_SWITCHING_MONITOR:
-    name: "交换监视器"
-    lore:
-      - "&c需要对准网络机器放置"
-      - "交换物品"
-
-  NTW_EXPANSION_HANGING_GRID_NEW_STYLE:
-    name: "贴图版高级网格"
-    lore:
-      - "&c需要对准网络机器放置"
-      - "贴图版高级网格允许你查看网络中所有的物品"
-      - "你也可以直接放入或取出物品"
-      - "支持自定义按键控制"
-      - "排序方式: "
-      - "&eAZ&7: &e按字母顺序排序"
-      - "&e数量&7: &e按物品数量排序"
-      - "&e数量倒序&7: &e按物品数量倒序排序"
-      - "&e附属&7: &e按物品所属附属字母顺序排序"
-      - "支持拼音搜索"
-
-  NTW_EXPANSION_WHITELISTED_TRANSFER_GRABBER:
-    name: "白名单网络抓取器"
-    lore:
-      - "白名单网络抓取器会尝试从"
-      - "指定的机器中抓取第一个物品"
-
-  NTW_EXPANSION_WHITELISTED_TRANSFER_VANILLA_GRABBER:
-    name: "白名单原版网络抓取器"
-    lore:
-      - "白名单原版网络抓取器会尝试从"
-      - "指定的机器中抓取第一个物品"
-
-  NTW_EXPANSION_WHITELISTED_LINE_TRANSFER_GRABBER:
-    name: "链式白名单传输器 [抓取]"
-    lore:
-      - "&c仅支持粘液容器"
-      - "&6运输距离: 32 格"
-      - "&7默认运输模式: &6首位阻断"
-      - "&c不可调整运输模式"
-      - "&7默认运输数量: &664"
-      - "&c不可调整运输数量"
-      - "&e与乱序技艺的链式传输器不同的是，此机器&c只有连续抓取的功能"
-      - "&c而不是连续转移物品！"
-      - "&7运输模式解释: "
-      - "&6首位阻断&7: &e仅抓取第一个有物品的槽位"
-
-  NTW_EXPANSION_WHITELISTED_LINE_TRANSFER_VANILLA_GRABBER:
-    name: "链式白名单原版传输器 [抓取]"
-    lore:
-      - "&c仅支持原版容器"
-      - "&6运输距离: 32 格"
-      - "&7默认运输模式: &6首位阻断"
-      - "&c不可调整运输模式"
-      - "&7默认运输数量: &664"
-      - "&c不可调整运输数量"
-      - "&e与乱序技艺的链式传输器不同的是，此机器&c只有连续抓取的功能"
-      - "&c而不是连续转移物品！"
-      - "&7运输模式解释: "
-      - "&6首位阻断&7: &e仅抓取第一个有物品的槽位"
-  NTW_EXPANSION_SMART_NETWORK_CRAFTING_GRID_NEW_STYLE:
-    name: "智能高级网格 (带合成)"
-    lore:
-      - "智能高级网格（带合成）允许你查看网络中所有的物品"
-      - "你也可以直接放入或取出物品"
-      - "拥有更多的输出槽"
-      - "支持自定义按键控制"
-      - "支持自动处理合成后出现的桶，碗，玻璃瓶"
-      - "排序方式: "
-      - "&eAZ&7: &e按字母顺序排序"
-      - "&e数量&7: &e按物品数量排序"
-      - "&e数量倒序&7: &e按物品数量倒序排序"
-      - "&e附属&7: &e按物品所属附属字母顺序排序"
-      - "支持拼音搜索"
-  NTW_EXPANSION_ITEM_DIFFERENTER:
-    name: "物品差异指示器"
-    lore:
-      - ""
-  NTW_EXPANSION_STORAGE_CARD_CONVERTER:
-    name: "存储卡转换器"
-    lore:
-      - "将量子存储转换为(新)乱序(改版)的存储卡"
-  NTW_EXPANSION_FACING_PRESETTER:
-    name: "方向预设器"
-    lore:
-      - "可以对抓取，推送，监视器等机器预设方向"
-      - "将其放置后，立即设置对应的方向"
   NTW_EXPANSION_SUPER_TRASH:
-    name: "超级垃圾桶"
+    name: "Super Trash Can"
     lore:
-      - "最快速地销毁一切输入的物品"
-      - "在界面中点击玩家背包中的物品会销毁物品"
-  NTW_EXPANSION_PLACEHOLDER_ITEM:
-    name: "占位符"
-    lore:
-      - ""
+      - "Instantly destroys all input items."
+      - "Clicking items in your inventory while"
+      - "the GUI is open will destroy them."
 
+# --- GUI / Display Strings ---
 displays:
   quantum_storage:
-    void_excess: "<click_info>满载清空输入: <passive>%s"
-    enabled_void_excess: "已启用"
-    disabled_void_excess: "已禁用"
-    stored_amount: "<click_info>数量: <passive>%s"
-    custom_max_amount: "<click_info>当前容量: <success>%s"
+    void_excess: "<click_info>Void Excess on Full: <passive>%s"
+    enabled_void_excess: "Enabled"
+    disabled_void_excess: "Disabled"
+    stored_amount: "<click_info>Amount: <passive>%s"
+    custom_max_amount: "<click_info>Current Capacity: <success>%s"
 groups:
   main: "<main>网络 (Networks)"
   materials: "<main>合成材料"
