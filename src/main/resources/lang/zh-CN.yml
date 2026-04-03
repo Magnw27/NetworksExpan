@@ -2936,46 +2936,46 @@ items:
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_1:
-    name: "Network Quantum Storage 1"
+    name: "Network Quantum Storage 4K"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 4K amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_2:
-    name: "Network Quantum Storage 2"
+    name: "Network Quantum Storage 32K"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 32K amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_3:
-    name: "Network Quantum Storage 3"
+    name: "Network Quantum Storage 262K"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 262K amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_4:
-    name: "Network Quantum Storage 4"
+    name: "Network Quantum Storage 2M"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 2M amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_5:
-    name: "Network Quantum Storage 5"
+    name: "Network Quantum Storage 16M"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 16M amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_6:
-    name: "Network Quantum Storage 6"
+    name: "Network Quantum Storage 134M"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 134M amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
 
   NTW_QUANTUM_STORAGE_7:
-    name: "Network Quantum Storage 7"
+    name: "Network Quantum Storage 1B"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 1B amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_8:
@@ -2985,15 +2985,15 @@ items:
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_9:
-    name: "Network Quantum Storage 9"
+    name: "Network Quantum Storage 256"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 256 amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_10:
-    name: "Network Quantum Storage 10"
+    name: "Network Quantum Storage 1.2K"
     lore:
-      - "Stores near amounts of items."
+      - "Stores 1.2K amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
 
