@@ -149,50 +149,50 @@ messages:
       - "&6/networks viewLog - Output logs of the targeted AdminDebuggable."
     example:
       help:
-        - "&6/networks help - 显示此帮助信息."
+        - "&6/networks help - Show this help information."
         - "&6ex: /networks help"
       fillquantum:
         - "&6/networks fillQuantum <amount> - Set the storage amount of the quantum storage item in hand."
         - "&6ex: /networks fillQuantum 1000"
       fixblueprint:
-        - "&6/networks fixBlueprint <keyInMeta> - 修复手持合成蓝图."
+        - "&6/networks fixBlueprint <keyInMeta> - Fix the crafting blueprint in hand."
         - "&6ex: /networks fixBlueprint networks-changed"
       addstorageitem:
-        - "&6/networks addStorageItem <amount> - 向指向的货运存储中添加手中物品指定数量."
+        - "&6/networks addStorageItem <amount> - Add the specified quantity of the item in hand to the targeted cargo storage."
         - "&6ex: /networks addstorageItem 1000"
       reducestorageitem:
-        - "&6/networks reduceStorageItem <amount> - 向指向的货运存储中减少手中物品指定数量."
+        - "&6/networks reduceStorageItem <amount> - Reduce the specified quantity of the item in hand from the targeted cargo storage."
         - "&6ex: /networks reduceStorageItem 1000"
       setquantum:
-        - "&6/networks setQuantum <amount> - 设置指向的量子存储的物品为手上的物品，并设置存储指定数量."
+        - "&6/networks setQuantum <amount> - Set the item in the targeted quantum storage to the item in hand, and set the specified storage amount."
         - "&6ex: /networks setQuantum 1000"
       setcontainerid:
-        - "&6/networks setContainerId <containerId> - 设置指向的货运存储的容器ID."
+        - "&6/networks setContainerId <containerId> - Set the container ID of the targeted cargo storage."
         - "&6ex: /networks setContainerId 6"
       getstorageitem:
-        - "&6/networks getStorageItem <slot> - 获取指向的货运存储指定槽位的物品."
+        - "&6/networks getStorageItem <slot> - Get the item from the specified slot of the targeted cargo storage."
         - "&6ex: /networks getStorageItem 0"
       worldedit:
-        - "&6/networks worldedit <subCommand> - 粘液创世神功能."
-        - "&6/networks worldedit pos1 - 选择第一个位置"
-        - "&6/networks worldedit pos2 - 选择第二个位置"
-        - "&6/networks worldedit paste <sfid> <handler> <force> - 粘贴粘液方块"
-        - "&6/networks worldedit clear <callHandler> <skipVanilla> - 清除粘液方块"
-        - "&6/networks worldedit blockMenu setSlot <slot> - 修改选中区域的粘液方法的菜单的对应槽位为手上物品"
-        - "&6/networks worldedit blockInfo add <key> <value> - 增加粘液方块信息"
-        - "&6/networks worldedit blockInfo remove <value> - 移除粘液方块信息"
-        - "&6/networks worldedit blockInfo set <key> <value> - 设置粘液方块信息"
-        - "&6/networks worldedit clone - 复制选中区域至你的位置"
-        - "&6/networks worldedit clearPos - 清除选择的位置"
-        - "&6/networks worldedit showAreaOutline - 显示选中区域的轮廓"
+        - "&6/networks worldedit <subCommand> - Slimefun WorldEdit functionality."
+        - "&6/networks worldedit pos1 - Select the first position"
+        - "&6/networks worldedit pos2 - Select the second position"
+        - "&6/networks worldedit paste <sfid> <handler> <force> - Paste Slimefun blocks"
+        - "&6/networks worldedit clear <callHandler> <skipVanilla> - Clear Slimefun blocks"
+        - "&6/networks worldedit blockMenu setSlot <slot> - Modify the corresponding slot of the Slimefun block menu in the selected area to the item in hand"
+        - "&6/networks worldedit blockInfo add <key> <value> - Add Slimefun block information"
+        - "&6/networks worldedit blockInfo remove <value> - Remove Slimefun block information"
+        - "&6/networks worldedit blockInfo set <key> <value> - Set Slimefun block information"
+        - "&6/networks worldedit clone - Copy the selected area to your location"
+        - "&6/networks worldedit clearPos - Clear the selected positions"
+        - "&6/networks worldedit showAreaOutline - Show the outline of the selected area"
       updateitem:
-        - "&6/networks updateItem - 更新手持物品."
+        - "&6/networks updateItem - Update the item in hand."
         - "&6ex: /networks updateItem"
       viewlog:
-        - "&6/networks viewLog - 将指向的 AdminDebuggable 的日志输出."
+        - "&6/networks viewLog - Output the logs of the targeted AdminDebuggable."
         - "&6ex: /networks viewLog"
       unknown-command:
-        - "<error>未知命令! 请使用 /networks help 查看帮助信息."
+        - "<error>Unknown command! Please use /networks help to view help information."
     worldedit:
       must-select-range: "&c请先选中一个区域!"
       must-select-same-world: "&c请选择同一世界的两个位置!"
@@ -269,37 +269,37 @@ messages:
       crafter_type: "<passive>合成机类型: %s"
       yes: "&a√"
       no: "&cx"
-      quantum-manager-click-behavior:
-        - "<click_info>左键点击: <passive>打开存储"
-        - "<click_info>手持物品左键点击: <passive>将点击的存储所存储的物品设置为手持物品"
-        - "<click_info>右键点击: <passive>高亮存储"
-        - "<click_info>Shift+左键点击: <passive>置顶/取消置顶存储"
-        - "<click_info>Shift+右键点击: <passive>设置存储的名字"
-        - "<click_info>手持物品Shift+右键点击: <passive>设置存储在此管理器中显示的图标"
-      drawer-manager-click-behavior:
-        - "<click_info>左键点击: <passive>打开存储"
-        - "<click_info>右键点击: <passive>高亮存储"
-        - "<click_info>Shift+左键点击: <passive>置顶/取消置顶存储"
-        - "<click_info>Shift+右键点击: <passive>设置存储的名字"
-        - "<click_info>手持物品Shift+右键点击: <passive>设置存储在此管理器中显示的图标"
-      crafter-manager-click-behavior:
-        - "<click_info>在蓝图上按Q: <passive>打开合成机"
-        - "<click_info>左键点击: <passive>取出蓝图"
-        - "<click_info>手持蓝图左键点击: <passive>交换蓝图"
-        - "<click_info>右键点击: <passive>高亮合成机"
-        - "<click_info>Shift+左键点击: <passive>置顶/取消置顶合成机"
-        - "<click_info>Shift+右键点击: <passive>设置合成机的名字"
-        - "<click_info>手持物品Shift+右键点击: <passive>设置存储在此管理器中显示的图标"
+    quantum-manager-click-behavior:
+        - "<click_info>Left-click: <passive>Open storage"
+        - "<click_info>Left-click with item in hand: <passive>Set the stored item of the clicked storage to the item in hand"
+        - "<click_info>Right-click: <passive>Highlight storage"
+        - "<click_info>Shift+Left-click: <passive>Pin/Unpin storage"
+        - "<click_info>Shift+Right-click: <passive>Set the name of the storage"
+        - "<click_info>Shift+Right-click with item in hand: <passive>Set the icon displayed in this manager for the storage"
+    drawer-manager-click-behavior:
+        - "<click_info>Left-click: <passive>Open storage"
+        - "<click_info>Right-click: <passive>Highlight storage"
+        - "<click_info>Shift+Left-click: <passive>Pin/Unpin storage"
+        - "<click_info>Shift+Right-click: <passive>Set the name of the storage"
+        - "<click_info>Shift+Right-click with item in hand: <passive>Set the icon displayed in this manager for the storage"
+    crafter-manager-click-behavior:
+        - "<click_info>Press Q on blueprint: <passive>Open crafter"
+        - "<click_info>Left-click: <passive>Take out blueprint"
+        - "<click_info>Left-click with blueprint in hand: <passive>Swap blueprint"
+        - "<click_info>Right-click: <passive>Highlight crafter"
+        - "<click_info>Shift+Left-click: <passive>Pin/Unpin crafter"
+        - "<click_info>Shift+Right-click: <passive>Set the name of the crafter"
+        - "<click_info>Shift+Right-click with item in hand: <passive>Set the icon displayed in this manager for the storage"
     viewer:
       location: "&7%s:%s:%s"
-      when: "&7时间: %s"
+      when: "&7Time: %s"
       change: "%s"
       item-flow-viewer-click-behavior:
-        - "<click_info>左键点击: <passive>打开详情界面"
+        - "<click_info>Left-click: <passive>Open details interface"
       item-flow-viewer-sub-click-behavior:
-        - "<click_info>左键点击: <passive>高亮机器"
+        - "<click_info>Left-click: <passive>Highlight machine"
     comprehensive:
-      auto_set_face: "自动设置朝向"
+      auto_set_face: "Auto set facing"
   completed-operation:
     directional:
       presetted_facing: "<success>已预设朝向: %s"
@@ -371,10 +371,10 @@ messages:
       deposit_success: "已存储 %sx%s 至物品转移棒"
       withdraw_success: "已输出 %sx%s 至存储"
     manager:
-      top_storage_off: "<warning>已取消置顶存储"
-      top_storage_on: "<success>已置顶存储"
-      set_icon: "<success>已设置图标"
-      set_name: "<success>已设置名称"
+      top_storage_off: "<warning>Storage unpinned"
+      top_storage_on: "<success>Storage pinned"
+      set_icon: "<success>Icon set"
+      set_name: "<success>Name set"
     manual_crafter:
       success: "&a合成成功"
     storage_card_converter:
@@ -394,10 +394,10 @@ messages:
     controller:
       cancel_place: "<error>This network is already connected to a network controller!"
     comprehensive:
-      cancel_place: "<error>禁止连接两个控制器"
-      no_permission: "&c你没有权限使用此物品!"
-      invalid_queue: "无法将任务添加到队列，请尝试重启服务器!"
-      unable_to_auto_set_face: "&c无法为坐标(x:{} | y:{} | z:{})自动设置方向"
+      cancel_place: "<error>Connecting two controllers is prohibited"
+      no_permission: "&cYou do not have permission to use this item!"
+      invalid_queue: "Unable to add task to queue, please try restarting the server!"
+      unable_to_auto_set_face: "&cUnable to automatically set facing for coordinates (x:{} | y:{} | z:{})"
     decoder:
       no_input: "&cNo blueprint input"
       not_blueprint: "&cThis item is not a blueprint"
@@ -407,17 +407,17 @@ messages:
     storage_unit_upgrade_table:
       no_recipe_match: "&c没有合适的配方"
     wireless_configurator:
-      not_network_wireless_block: "<error>必须对着网络无线方块使用。"
-      no_target_location: "<error>需要先设置接收器位置。"
-      not_same_world: "<error>网络无线接收器在不同的世界中。"
+      not_network_wireless_block: "<error>Must be used on a network wireless block."
+      no_target_location: "<error>You need to set the receiver location first."
+      not_same_world: "<error>The network wireless receiver is in a different world."
     item_mover:
-      invalid_item_mover: "&c不是一个有效的物品转移棒"
-      invalid_storage: "&c请选择一个有效的存储."
-      empty_storage: "&c存储中没有可用的物品."
-      invalid_item: "&c无法获取物品."
-      empty_mover: "&c没有可用的物品."
-      full_storage: "&c存储已满"
-      suggest_use_drawers: "&c你需要在抽屉界面中使用此物品"
+      invalid_item_mover: "&cNot a valid item transfer wand"
+      invalid_storage: "&cPlease select a valid storage."
+      empty_storage: "&cNo available items in storage."
+      invalid_item: "&cUnable to obtain item."
+      empty_mover: "&cNo available items."
+      full_storage: "&cStorage is full"
+      suggest_use_drawers: "&cYou need to use this item in the drawers interface"
     encoder:
       not_enough_power: "<warning>Insufficient power in the network, unable to complete this task"
       invalid_blueprint: "<warning>You need to provide a valid blank blueprint"
@@ -479,14 +479,14 @@ messages:
     grid:
       may_duping: "Player \"%s\" attempted to use network grid from a invalid node at %s，the player may trying to cheat or duplicate items."
     manager:
-      support_quantum_only: "&c仅支持对网络量子存储操作"
-      quantum_storage_not_empty: "<warning>网络量子存储必须为空才能更换物品"
+      support_quantum_only: "&cOnly supports operations on network quantum storage"
+      quantum_storage_not_empty: "<warning>Network quantum storage must be empty to change items"
     manual_crafter:
-      disabled-output: "&c输出物已被禁用"
-      full-output: "&c输出槽已满"
+      disabled-output: "&cOutput item has been disabled"
+      full-output: "&cOutput slot is full"
     crafter_manager:
-      different_type_1: "&c已存入的蓝图与合成机类型不符"
-      different_type_2: "&c已存入: %s; &a期望: %s"
+      different_type_1: "&cThe stored blueprint does not match the crafter type"
+      different_type_2: "&cStored: %s; &aExpected: %s"
   super-head:
     - "███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗   "
     - "████╗  ██║██╔════╝╚══██╔══╝██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝   "
@@ -538,585 +538,585 @@ messages:
     found-netheopoiesis: "检测到安装了下界乌托邦，注册相关物品!"
     not-found-netheopoiesis: "你必须安装下界乌托邦才能让相关物品注册. "
     slimehud:
-      empty_quantum_storage: "&7| 空"
+      empty_quantum_storage: "&7| Empty"
     netheopoiesis:
-      dirt_tips: "(或净化等级更高的)"
+      dirt_tips: "(or higher purification level)"
       dirt_level:
-        highest: "下界草方块"
-        high: "贪婪泥土"
+        highest: "Nether Grass Block"
+        high: "Greedy Dirt"
       stone_chunk_seed:
-        name: "石块之种"
+        name: "Seed of Stone Chunk"
         lore:
-          - "这种植物成熟后,"
-          - "收获时将获得石块."
+          - "When this plant matures,"
+          - "you will harvest stone chunks."
       synthetic_seed:
-        name: "人造之种"
+        name: "Synthetic Seed"
         lore:
-          - "这个种子没有任何效果."
+          - "This seed has no effect."
       synthetic_emerald_seed:
-        name: "人造绿宝石之种"
+        name: "Synthetic Emerald Seed"
         lore:
-          - "这种植物成熟后,"
-          - "收获时将获得人造绿宝石."
+          - "When this plant matures,"
+          - "you will harvest synthetic emeralds."
       synthetic_diamond_seed:
-        name: "人造钻石之种"
+        name: "Synthetic Diamond Seed"
         lore:
-          - "这种植物成熟后,"
-          - "收获时将获得人造钻石."
+          - "When this plant matures,"
+          - "you will harvest synthetic diamonds."
       fragmented_seed:
-        name: "碎片之种"
+        name: "Fragmented Seed"
         lore:
-          - "这种植物成熟后,"
-          - "收获时将获得人造绿宝石碎片."
-  save-all: "正在保存网络拓展数据."
+          - "When this plant matures,"
+          - "you will harvest synthetic emerald fragments."
+  save-all: "Saving network expansion data..."
 icons:
   keybind-settings:
-    name: "&6按键控制设置"
+    name: "&6Keybind Settings"
   light-gray-background:
     name: "&7"
   yellow-border:
     name: "&7"
   upload-keybind-script:
-    name: "&6上传按键控制脚本"
+    name: "&6Upload Keybind Script"
   gray-background:
     name: "&7"
   script-center:
-    name: "&6脚本中心"
+    name: "&6Script Center"
   return-ingredient:
-    name: "&6点击返回合成材料"
+    name: "&6Click to return to crafting ingredients"
   return-output:
-    name: "&6点击返回输出槽物品"
+    name: "&6Click to return to output slot items"
   craft:
-    name: "&e合成"
+    name: "&eCraft"
     lore:
-      - "<click_info>左键点击: 合成1次"
-      - "<click_info>右键点击: 合成64次"
+      - "<click_info>Left-click: Craft once"
+      - "<click_info>Right-click: Craft 64 times"
   keybinds:
     scripts:
       display:
-        name: "&6%s的按键控制脚本%s (#%s)"
+        name: "&6Keybind Script of %s%s (#%s)"
         lore:
-          - "&a点击下载此按键控制脚本"
+          - "&aClick to download this keybind script"
     store-item:
-      name: "&6存入物品"
+      name: "&6Store Item"
     do-nothing:
-      name: "&6无操作"
+      name: "&6Do Nothing"
     hanginggridnewstyle-display-keybinds:
-      name: "&6显示栏按键控制"
+      name: "&6Display Bar Keybinds"
     networkgridnewstyle-display-keybinds:
-      name: "&6显示栏按键控制"
+      name: "&6Display Bar Keybinds"
     networkcraftinggridnewstyle-display-keybinds:
-      name: "&6显示栏按键控制"
+      name: "&6Display Bar Keybinds"
     smartnetworkcraftinggridnewstyle-display-keybinds:
-      name: "&6显示栏按键控制"
+      name: "&6Display Bar Keybinds"
     outside-keybinds:
-      name: "&6背包栏按键控制"
+      name: "&6Inventory Bar Keybinds"
     smart-outside-keybinds:
-      name: "&6背包栏按键控制"
+      name: "&6Inventory Bar Keybinds"
     clicked-item-not-equals-to-cursor:
-      name: "&6点击的物品与光标物品不一致时"
+      name: "&6When clicked item does not match cursor item"
     store-cursor:
-      name: "&6存入光标物品"
+      name: "&6Store Cursor Item"
     left-click:
-      name: "&6点击左键时"
+      name: "&6On Left-click"
     right-click:
-      name: "&6点击右键时"
+      name: "&6On Right-click"
     shift-click:
-      name: "&6按下Shift键点击时"
+      name: "&6On Shift-click"
     shift-left-click:
-      name: "&6按下Shift键点击左键时"
+      name: "&6On Shift+Left-click"
     shift-right-click:
-      name: "&6按下Shift键点击右键时"
+      name: "&6On Shift+Right-click"
     one-cursor:
-      name: "&6取出1个物品至光标"
+      name: "&6Take 1 item to cursor"
     stack-cursor:
-      name: "&6取出1组物品至光标"
+      name: "&6Take 1 stack to cursor"
     stack-inv:
-      name: "&6取出1组物品至背包"
+      name: "&6Take 1 stack to inventory"
     one-inv:
-      name: "&6取出1个物品至背包"
+      name: "&6Take 1 item to inventory"
     custom-cursor:
-      name: "&6取出自定义数量个物品至光标"
+      name: "&6Take custom amount to cursor"
     custom-inv:
-      name: "&6取出自定义数量个物品至背包"
+      name: "&6Take custom amount to inventory"
     ask-cursor:
-      name: "&6询问数量并取出指定数量个物品至光标"
+      name: "&6Ask amount and take specified items to cursor"
     ask-inv:
-      name: "&6询问数量并取出指定数量个物品至背包"
+      name: "&6Ask amount and take specified items to inventory"
     hanginggridnewstyle-store-cursor:
-      name: "&6存入光标物品"
+      name: "&6Store Cursor Item"
     hanginggridnewstyle-one-cursor:
-      name: "&6取出1个物品至光标"
+      name: "&6Take 1 item to cursor"
     hanginggridnewstyle-stack-cursor:
-      name: "&6取出1组物品至光标"
+      name: "&6Take 1 stack to cursor"
     hanginggridnewstyle-stack-inv:
-      name: "&6取出1组物品至背包"
+      name: "&6Take 1 stack to inventory"
     hanginggridnewstyle-one-inv:
-      name: "&6取出1个物品至背包"
+      name: "&6Take 1 item to inventory"
     hanginggridnewstyle-custom-cursor:
-      name: "&6取出自定义数量个物品至光标"
+      name: "&6Take custom amount to cursor"
     hanginggridnewstyle-custom-inv:
-      name: "&6取出自定义数量个物品至背包"
+      name: "&6Take custom amount to inventory"
     hanginggridnewstyle-ask-cursor:
-      name: "&6询问数量并取出指定数量个物品至光标"
+      name: "&6Ask amount and take specified items to cursor"
     hanginggridnewstyle-ask-inv:
-      name: "&6询问数量并取出指定数量个物品至背包"
+      name: "&6Ask amount and take specified items to inventory"
     networkgridnewstyle-store-cursor:
-      name: "&6存入光标物品"
+      name: "&6Store Cursor Item"
     networkgridnewstyle-one-cursor:
-      name: "&6取出1个物品至光标"
+      name: "&6Take 1 item to cursor"
     networkgridnewstyle-stack-cursor:
-      name: "&6取出1组物品至光标"
+      name: "&6Take 1 stack to cursor"
     networkgridnewstyle-stack-inv:
-      name: "&6取出1组物品至背包"
+      name: "&6Take 1 stack to inventory"
     networkgridnewstyle-one-inv:
-      name: "&6取出1个物品至背包"
+      name: "&6Take 1 item to inventory"
     networkgridnewstyle-custom-cursor:
-      name: "&6取出自定义数量个物品至光标"
+      name: "&6Take custom amount to cursor"
     networkgridnewstyle-custom-inv:
-      name: "&6取出自定义数量个物品至背包"
+      name: "&6Take custom amount to inventory"
     networkgridnewstyle-ask-cursor:
-      name: "&6询问数量并取出指定数量个物品至光标"
+      name: "&6Ask amount and take specified items to cursor"
     networkgridnewstyle-ask-inv:
-      name: "&6询问数量并取出指定数量个物品至背包"
+      name: "&6Ask amount and take specified items to inventory"
     networkcraftinggridnewstyle-store-cursor:
-      name: "&6存入光标物品"
+      name: "&6Store Cursor Item"
     networkcraftinggridnewstyle-one-cursor:
-      name: "&6取出1个物品至光标"
+      name: "&6Take 1 item to cursor"
     networkcraftinggridnewstyle-stack-cursor:
-      name: "&6取出1组物品至光标"
+      name: "&6Take 1 stack to cursor"
     networkcraftinggridnewstyle-stack-inv:
-      name: "&6取出1组物品至背包"
+      name: "&6Take 1 stack to inventory"
     networkcraftinggridnewstyle-one-inv:
-      name: "&6取出1个物品至背包"
+      name: "&6Take 1 item to inventory"
     networkcraftinggridnewstyle-custom-cursor:
-      name: "&6取出自定义数量个物品至光标"
+      name: "&6Take custom amount to cursor"
     networkcraftinggridnewstyle-custom-inv:
-      name: "&6取出自定义数量个物品至背包"
+      name: "&6Take custom amount to inventory"
     networkcraftinggridnewstyle-ask-cursor:
-      name: "&6询问数量并取出指定数量个物品至光标"
+      name: "&6Ask amount and take specified items to cursor"
     networkcraftinggridnewstyle-ask-inv:
-      name: "&6询问数量并取出指定数量个物品至背包"
+      name: "&6Ask amount and take specified items to inventory"
     smartnetworkcraftinggridnewstyle-store-cursor:
-      name: "&6存入光标物品"
+      name: "&6Store Cursor Item"
     smartnetworkcraftinggridnewstyle-one-cursor:
-      name: "&6取出1个物品至光标"
+      name: "&6Take 1 item to cursor"
     smartnetworkcraftinggridnewstyle-stack-cursor:
-      name: "&6取出1组物品至光标"
+      name: "&6Take 1 stack to cursor"
     smartnetworkcraftinggridnewstyle-stack-inv:
-      name: "&6取出1组物品至背包"
+      name: "&6Take 1 stack to inventory"
     smartnetworkcraftinggridnewstyle-one-inv:
-      name: "&6取出1个物品至背包"
+      name: "&6Take 1 item to inventory"
     smartnetworkcraftinggridnewstyle-custom-cursor:
-      name: "&6取出自定义数量个物品至光标"
+      name: "&6Take custom amount to cursor"
     smartnetworkcraftinggridnewstyle-custom-inv:
-      name: "&6取出自定义数量个物品至背包"
+      name: "&6Take custom amount to inventory"
     smartnetworkcraftinggridnewstyle-ask-cursor:
-      name: "&6询问数量并取出指定数量个物品至光标"
+      name: "&6Ask amount and take specified items to cursor"
     smartnetworkcraftinggridnewstyle-ask-inv:
-      name: "&6询问数量并取出指定数量个物品至背包"
+      name: "&6Ask amount and take specified items to inventory"
   filter-mode-black-list:
-    name: "&6黑名单模式"
+    name: "&6Blacklist Mode"
     lore:
-      - "&7点击切换为白名单模式"
+      - "&7Click to switch to Whitelist Mode"
   filter-mode-white-list:
-    name: "&6白名单模式"
+    name: "&6Whitelist Mode"
     lore:
-      - "&7点击切换为黑名单模式"
+      - "&7Click to switch to Blacklist Mode"
   match-mode-all-match:
-    name: "&6全匹配模式"
+    name: "&6Full Match Mode"
     lore:
-      - "&7点击切换为仅匹配材料模式"
+      - "&7Click to switch to Material Match Only Mode"
   match-mode-material-match:
-    name: "&6仅匹配材料模式"
+    name: "&6Material Match Only Mode"
     lore:
-      - "&7点击切换为全匹配模式"
+      - "&7Click to switch to Full Match Mode"
   advanced-vacuum-split-block:
     name: " "
     lore:
       - " "
-  jeg-button:
-    name: "&6配方补全"
-    lore:
-      - "&7点击打开配方补全界面"
-  item-flow-viewer-force-clean:
-    name: "&6清除缓存"
-    lore:
-      - "&7点击清除缓存"
-  item-flow-viewer-back-to-main:
-    name: "&7返回"
-    lore:
-      - "&7点击返回主界面"
-  unknown-item:
-    name: "&7未知物品"
-    lore:
-      - "&7未知物品"
-  craft-button-stack-6x6:
-    name: "<click_info>合成"
-    lore:
-      - ""
-  craft-button-stack-3x3:
-    name: "<click_info>合成"
-    lore:
-      - ""
-  craft-button:
-    name: "<click_info>合成"
-    lore:
-      - "<click_info>左键点击: <passive>合成"
-      - "<click_info>Shift+左键点击: <passive>将合成台内物品送回网络"
-  craft-button-new-style:
-    name: "<click_info>合成"
-    lore:
-      - "<click_info>左键点击: <passive>合成 1 次"
-      - "<click_info>Shift+左键点击: <passive>将合成台内物品送回网络"
-      - "<click_info>右键点击: <passive>合成 64 次"
-  docs_icon:
-    click_to_visit_wiki: "单击此处访问Wiki"
-    name: "附属 Wiki"
-    lore:
-      - "点击获取网络的 Wiki 链接"
-  transport_mode:
-    none: "无限制"
-    null_only: "仅空"
-    nonnull_only: "仅非空"
-    first_only: "仅首位"
-    last_only: "仅末位"
-    first_stop: "首位阻断"
-    lazy: "懒惰模式"
-    void: "清空模式"
-    specified_quantity: "仅指定数量"
-  mechanism:
-    transfers:
-      data_title: "&a⇩传输数据⇩"
-      max_distance: "&7[&a最大距离&7]&f: &6%s 方块"
-      push_item_tick: "&7[&a推送频率&7]&f:&7 每 &6%s SF tick &7推送一次"
-      grab_item_tick: "&7[&a抓取频率&7]&f:&7 每 &6%s SF tick &7抓取一次"
-      required_power: "&7[&a运输耗电&7]&f:&7 每次运输消耗 &6%s J 网络电力"
-    advanced_purger:
-      name: "&a ⇩清理机制⇩"
+    jeg-button:
+      name: "&6Recipe Completion"
+      lore:
+        - "&7Click to open recipe completion interface"
+    item-flow-viewer-force-clean:
+      name: "&6Clear Cache"
+      lore:
+        - "&7Click to clear cache"
+    item-flow-viewer-back-to-main:
+      name: "&7Back"
+      lore:
+        - "&7Click to return to main interface"
+    unknown-item:
+      name: "&7Unknown Item"
+      lore:
+        - "&7Unknown Item"
+    craft-button-stack-6x6:
+      name: "<click_info>Craft"
       lore:
         - ""
-        - "&e&f功能描述:"
-        - "&f-&7 网络高级清除器会从网络中"
-        - "&f-&7 不断地移除指定物品(需要按顺序放置)"
-        - "&f-&7 清除的物品会立即消失，谨慎使用!"
-    import:
-      name: "&a ⇩导入机制⇩"
-      lore:
-        - "&7智能自动化物品收集与网络集成系统"
-        - ""
-        - "&e核心特性&f:"
-        - "&f-&7 实时监控：持续检测所有54个输入槽位的物品状态"
-        - "&f-&7 动态传输：基于设定频率，智能地将物品批量传输至网络"
-        - ""
-        - "&e使用指南&f:"
-        - "&f-&7 将待导入物品放置于输入槽位"
-        - "&f-&7 自动执行物品导入流程，释放双手，提升效率"
-    export:
-      name: "&a ⇩运输机制⇩"
+    craft-button-stack-3x3:
+      name: "<click_info>Craft"
       lore:
         - ""
-        - "&e每 SF tick 尝试从网络中获取指定数量的输入槽内的所有物品并输出到输出槽"
-  drawer:
-    click_to_disable: "&e点击禁用"
-    click_to_enable: "&e点击启用"
-    stored_item: "&b存储数量: &e%s &7/ &6%s"
-    storage_info:
-      enabled: "&a✔"
-      disabled: "&4✘"
-      name: "&c存储信息"
-      id: "&b容器ID: &a%s"
-      type_count: "&b物品种类: &e%s &7/ &6%s"
-      max_each: "&b容量上限: &e%s &7* &6%s"
-      locked: "&b内容锁定模式: %s"
-      void_excess: "&b满载清空模式: %s"
-    content_lock:
-      locked: "&c已锁定"
-      unlocked: "&a未锁定"
-      name: "&6内容锁定模式"
-      lore_before_status:
-        - ""
-      status: "&b状态: %s"
-      lore_after_status:
-        - ""
-        - "&7当容器锁定后，将仅允许当前存在的物品输入"
-        - "&7并且输出时将会留下至少一个物品"
-    void_excess:
-      enabled: "&a已开启"
-      disabled: "&c未开启"
-      name: "&6满载清空模式"
-      lore_before_status:
-        - ""
-      status: "&b状态: %s"
-      lore_after_status:
-        - ""
-        - "&7开启此模式后，超过存储上限的物品的数量不会再增加，但仍能存入"
-    quick_transfer:
-      name: "&6快速转移模式"
-      lore_before_status:
-        - ""
-      status: "&b状态: %s"
-      lore_after_status:
-        - " "
-        - "&e在上方放入量子存储/物品转移棒"
-        - "&e在下方放入要转移的物品"
-        - " "
-        - "&e点击左键开始转移"
-        - "&e点击右键切换模式"
-        - " "
-        - "&c需要网络抽屉中存在此物品才能运输！"
-      from_quantum: "&a从量子存储/物品转移棒转移至此"
-      to_quantum: "&a从此转移至量子存储/物品转移棒"
-    location_error:
-      name: "&c位置错误"
-      lore_before_info:
-        - ""
-        - "&e这个容器已在其它位置存在"
-        - "&e请不要将同ID的容器放在多个不同的位置"
-        - "&e如果您认为这是个意外，请联系管理员处理"
-        - " "
-        - "&6容器信息:"
-      id: "&b容器ID: &a%s"
-      world: "&b所在世界: &e%s"
-      location: "&b所在位置: &e%s &7/ &e%s &7/ &e%s"
-      unknown: "Unknown"
+    craft-button:
+      name: "<click_info>Craft"
+      lore:
+        - "<click_info>Left-click: <passive>Craft"
+        - "<click_info>Shift+Left-click: <passive>Return items in crafting table to network"
+    craft-button-new-style:
+      name: "<click_info>Craft"
+      lore:
+        - "<click_info>Left-click: <passive>Craft once"
+        - "<click_info>Shift+Left-click: <passive>Return items in crafting table to network"
+        - "<click_info>Right-click: <passive>Craft 64 times"
+    docs_icon:
+      click_to_visit_wiki: "Click here to visit Wiki"
+      name: "Addon Wiki"
+      lore:
+        - "Click to get the network Wiki link"
+    transport_mode:
+      none: "No restriction"
+      null_only: "Empty only"
+      nonnull_only: "Non-empty only"
+      first_only: "First only"
+      last_only: "Last only"
+      first_stop: "First stop"
+      lazy: "Lazy mode"
+      void: "Void mode"
+      specified_quantity: "Specified quantity only"
+    mechanism:
+      transfers:
+        data_title: "&a⇩Transfer Data⇩"
+        max_distance: "&7[&aMax Distance&7]&f: &6%s blocks"
+        push_item_tick: "&7[&aPush Frequency&7]&f:&7 Push every &6%s SF ticks"
+        grab_item_tick: "&7[&aGrab Frequency&7]&f:&7 Grab every &6%s SF ticks"
+        required_power: "&7[&aTransport Power Consumption&7]&f:&7 Each transport consumes &6%s J network power"
+      advanced_purger:
+        name: "&a ⇩Purging Mechanism⇩"
+        lore:
+          - ""
+          - "&e&fFunction Description:"
+          - "&f-&7 The network advanced purger will continuously"
+          - "&f-&7 remove specified items from the network (must be placed in order)"
+          - "&f-&7 Removed items will disappear immediately, use with caution!"
+      import:
+        name: "&a ⇩Import Mechanism⇩"
+        lore:
+          - "&7Smart automated item collection and network integration system"
+          - ""
+          - "&eCore Features&f:"
+          - "&f-&7 Real-time monitoring: continuously checks item status in all 54 input slots"
+          - "&f-&7 Dynamic transfer: intelligently transfers items in batches to the network based on set frequency"
+          - ""
+          - "&eUsage Guide&f:"
+          - "&f-&7 Place items to be imported into input slots"
+          - "&f-&7 Automatically executes item import process, freeing your hands and improving efficiency"
+      export:
+        name: "&a ⇩Export Mechanism⇩"
+        lore:
+          - ""
+          - "&eEach SF tick attempts to fetch specified quantity of items from input slots in the network and output them to output slots"
+    drawer:
+      click_to_disable: "&eClick to disable"
+      click_to_enable: "&eClick to enable"
+      stored_item: "&bStored amount: &e%s &7/ &6%s"
+      storage_info:
+        enabled: "&a✔"
+        disabled: "&4✘"
+        name: "&cStorage Info"
+        id: "&bContainer ID: &a%s"
+        type_count: "&bItem types: &e%s &7/ &6%s"
+        max_each: "&bCapacity limit: &e%s &7* &6%s"
+        locked: "&bContent Lock Mode: %s"
+        void_excess: "&bVoid Excess Mode: %s"
+      content_lock:
+        locked: "&cLocked"
+        unlocked: "&aUnlocked"
+        name: "&6Content Lock Mode"
+        lore_before_status:
+          - ""
+        status: "&bStatus: %s"
+        lore_after_status:
+          - ""
+          - "&7When the container is locked, only currently existing items are allowed to be input"
+          - "&7And at least one item will remain when outputting"
+      void_excess:
+        enabled: "&aEnabled"
+        disabled: "&cDisabled"
+        name: "&6Void Excess Mode"
+        lore_before_status:
+          - ""
+        status: "&bStatus: %s"
+        lore_after_status:
+          - ""
+          - "&7When this mode is enabled, items exceeding the storage limit will not increase in quantity, but can still be stored"
+      quick_transfer:
+        name: "&6Quick Transfer Mode"
+        lore_before_status:
+          - ""
+        status: "&bStatus: %s"
+        lore_after_status:
+          - " "
+          - "&ePlace quantum storage/item transfer wand above"
+          - "&ePlace items to transfer below"
+          - " "
+          - "&eLeft-click to start transfer"
+          - "&eRight-click to switch mode"
+          - " "
+          - "&cThe item must exist in the network drawer to be transported!"
+        from_quantum: "&aTransfer from quantum storage/item transfer wand to here"
+        to_quantum: "&aTransfer from here to quantum storage/item transfer wand"
+      location_error:
+        name: "&cLocation Error"
+        lore_before_info:
+          - ""
+          - "&eThis container already exists at another location"
+          - "&eDo not place containers with the same ID in multiple different locations"
+          - "&eIf you believe this is accidental, please contact an administrator"
+          - " "
+          - "&6Container Info:"
+        id: "&bContainer ID: &a%s"
+        world: "&bWorld: &e%s"
+        location: "&bLocation: &e%s &7/ &e%s &7/ &e%s"
+        unknown: "Unknown"
   power_display:
-    status_title: "<click_info>状态"
-    charge: "<passive>网络电力: %sJ"
+    status_title: "<click_info>Status"
+    charge: "<passive>Network Power: %sJ"
   output-background-stack:
-    name: "<passive>输出"
+    name: "<passive>Output"
     lore:
       - ""
   blueprint-background-stack:
-    name: "<passive>合成蓝图"
+    name: "<passive>Crafting Blueprint"
     lore:
       - ""
   blueprint-back-stack:
-    name: "<passive>空白蓝图"
+    name: "<passive>Blank Blueprint"
     lore:
       - ""
   encode-stack:
-    name: "<passive>点击此处进行编码"
+    name: "<passive>Click here to encode"
     lore:
       - ""
   blank-slot-stack:
     name: " "
     lore:
       - ""
-  page-previous-stack:
-    name: "<click_info>上一页"
-    lore:
-      - ""
-  page-next-stack:
-    name: "<click_info>下一页"
-    lore:
-      - ""
-  change-sort-stack:
-    name: "<click_info>更改排序方式"
-    lore:
-      - ""
-  filter-stack:
-    name: "<click_info>左键设置过滤器 (右键点击以清除)"
-    lore:
-      - ""
-  display-mode-stack:
-    name: "<click_info>点击切换&2显示模式"
-    lore:
-      - "<click_info>当前&2显示模式&7: &6显示网络所有物品"
-      - "<click_info>&6左键&7以切换&2显示模式"
-  history-mode-stack:
-    name: "<click_info>点击切换&2显示模式"
-    lore:
-      - "<click_info>当前&2显示模式&7: &b显示取出物品历史"
-      - "<click_info>&6左键&7以切换&2显示模式"
-      - "<click_info>&c当前模式不可使用搜索！"
-  minus-icon:
-    name: "<color_random_string>减少数量"
-    lore:
-      - ""
-  show-icon:
-    name: "<color_random_string>数量"
-    lore:
-      - "<color_random_string>当前数量: 64"
-  add-icon:
-    name: "<color_random_string>增加数量"
-    lore:
-      - ""
-  transport-mode-icon:
-    name: "<color_random_string>运输模式"
-    lore:
-      - "<color_random_string>当前模式: 无"
-  pusher-template-background-stack:
-    name: "<passive>指定需要推送的物品"
-    lore:
-      - ""
-  background-stack-6x6:
-    name: "<passive> "
-    lore:
-      - ""
-  background-stack-3x3:
-    name: "<passive> "
-    lore:
-      - ""
-  blue-background:
-    name: "<passive> "
-    lore:
-      - ""
-  greedy-template-background-stack:
-    name: "<success>需要阻断的物品"
-    lore:
-      - ""
-  storage-background-stack:
-    name: "<success>物品存储"
-    lore:
-      - ""
-  purger-template-background-stack:
-    name: "<success>指定需要清除的物品"
-    lore:
-      - ""
-  grabber-template-background-stack:
-    name: "<passive>指定需要抓取的物品"
-    lore:
-      - ""
-  control-v-template-background-stack:
-    name: "<passive>粘贴物品模版"
-    lore:
-      - ""
-  control-x-template-background-stack:
-    name: "<passive>剪切物品模版"
-    lore:
-      - "<passive>留空将剪切任何方块"
-  export-template-background-stack:
-    name: "<success>指定输出物品"
-    lore:
-      - ""
-  export-output-background-stack:
-    name: "<success>输出栏"
-    lore:
-      - ""
-  power-display-empty:
-    name: "<click_info>状态"
-    lore:
-      - "<passive>未连接"
-  quantum-storage-back-output:
-    name: "<passive>输出"
-    lore:
-      - ""
-  quantum-storage-set-item-supporting-custom-max:
-    name: "<success>设置"
-    lore:
-      - "<passive>拿起物品并点击这里以设置物品"
-      - "<passive>点击这里以设置更改容量"
-      - "<click_info>Shift+左键点击<passive>切换满载清空输入"
-  quantum-storage-set-item:
-    name: "<success>设置"
-    lore:
-      - "<passive>拿起物品并点击这里以设置物品"
-      - "<click_info>Shift+左键点击<passive>切换满载清空输入"
-  quantum-storage-back-input:
-    name: "<passive>输入"
-    lore:
-      - ""
-  quantum-storage-no-item:
-    name: "<error>未指定物品"
-    lore:
-      - "<passive>拿起物品并点击下方的按钮"
-      - "<passive>以设置量子存储保存的物品"
-  quantum-storage-back-item:
-    name: "<passive>当前存储的物品"
-    lore:
-      - ""
-  quantum-workbench-craft-button-stack:
-    name: "<click_info>点击进行量子纠缠"
-    lore:
-      - ""
-  received-background-stack:
-    name: "<success>接收的物品"
-    lore:
-      - ""
-  transmitter-template-background-stack:
-    name: "<success>发送的物品"
-    lore:
-      - ""
-  due-border-icon:
-    name: "&a← 在此放置预期物品"
-    lore:
-      - ""
-  due-input-split-icon:
-    name: "&a↑ 预期物品 & 输入物品 ↓"
-    lore:
-      - ""
-  input-output-split-icon:
-    name: "&a↑ 输入物品 & 输出物品 ↓"
-    lore:
-      - ""
-  decode-item:
-    name: "&6网络解码器"
-    lore:
-      - "&7点击解码网络蓝图"
-  offset-decrease-icon:
-    name: "&a偏移量 -1"
-    lore:
-      - ""
-  offset-show-icon:
-    name: "&a偏移量"
-    lore:
-      - "&7当前偏移量: &e%s"
-  offset-increase-icon:
-    name: "&a偏移量 +1"
-    lore:
-      - ""
-  quick-input:
-    name: "&b快速存入"
-    lore:
-      - "&7> 点击此处将物品栏中所有可用物品"
-      - "&7存入量子存储"
-  quick-output:
-    name: "&6快速取出"
-    lore:
-      - "&7> [左键]点击将物品取出并填满你的物品栏"
-      - "&7> [右键]点击取出1个物品"
-      - "&7> [shift+右键]点击取出64个物品"
-  action-button:
-    name: "&6点击升级"
-    lore:
-      - ""
-  ae_switcher:
-    name: "网络交换机"
-  diff-button:
-    name: "&6点击查看物品差异"
-    lore:
-      - ""
-  diff-result-icon:
-    name: "&6检测结果: "
-    lore:
-      - ""
-  storage-convert-button:
-    name: "&6点击转换为存储卡"
-    lore:
-      - ""
-  item-target-desc-stack:
-    name: "&6物品指定槽"
-    lore:
-      - "&a若此配方存在多种输出"
-      - "&a在下方放入输出物品"
-      - "&a以指定蓝图输出的物品"
-  facing-presetter-help-icon:
-    name: "&6预设功能使用教程"
-    lore:
-      - "&a在上方的空位放置能被设置方向的网络机器（监视器，推送，抓取等）"
-      - "&a点击方向按键对这些机器预设方向"
-      - "&a使机器放置后，立即拥有方向属性"
-  recipe-types:
-    expansion_workbench_3x3:
-      name: "网络拓展工作台"
+    page-previous-stack:
+      name: "<click_info>Previous Page"
       lore:
-        - "在拓展工作台中制作"
-    quantum_workbench:
-      name: "网络量子工作台"
+        - ""
+    page-next-stack:
+      name: "<click_info>Next Page"
       lore:
-        - "在量子工作台中制作"
-
+        - ""
+    change-sort-stack:
+      name: "<click_info>Change Sorting Method"
+      lore:
+        - ""
+    filter-stack:
+      name: "<click_info>Left-click to set filter (Right-click to clear)"
+      lore:
+        - ""
+    display-mode-stack:
+      name: "<click_info>Click to switch &2Display Mode"
+      lore:
+        - "<click_info>Current &2Display Mode&7: &6Show all network items"
+        - "<click_info>&6Left-click&7 to switch &2Display Mode"
+    history-mode-stack:
+      name: "<click_info>Click to switch &2Display Mode"
+      lore:
+        - "<click_info>Current &2Display Mode&7: &bShow item withdrawal history"
+        - "<click_info>&6Left-click&7 to switch &2Display Mode"
+        - "<click_info>&cSearch is not available in current mode!"
+    minus-icon:
+      name: "<color_random_string>Decrease Quantity"
+      lore:
+        - ""
+    show-icon:
+      name: "<color_random_string>Quantity"
+      lore:
+        - "<color_random_string>Current Quantity: 64"
+    add-icon:
+      name: "<color_random_string>Increase Quantity"
+      lore:
+        - ""
+    transport-mode-icon:
+      name: "<color_random_string>Transport Mode"
+      lore:
+        - "<color_random_string>Current Mode: None"
+    pusher-template-background-stack:
+      name: "<passive>Specify items to push"
+      lore:
+        - ""
+    background-stack-6x6:
+      name: "<passive> "
+      lore:
+        - ""
+    background-stack-3x3:
+      name: "<passive> "
+      lore:
+        - ""
+    blue-background:
+      name: "<passive> "
+      lore:
+        - ""
+    greedy-template-background-stack:
+      name: "<success>Items to block"
+      lore:
+        - ""
+    storage-background-stack:
+      name: "<success>Item Storage"
+      lore:
+        - ""
+    purger-template-background-stack:
+      name: "<success>Specify items to purge"
+      lore:
+        - ""
+    grabber-template-background-stack:
+      name: "<passive>Specify items to grab"
+      lore:
+        - ""
+    control-v-template-background-stack:
+      name: "<passive>Paste item template"
+      lore:
+        - ""
+    control-x-template-background-stack:
+      name: "<passive>Cut item template"
+      lore:
+        - "<passive>Leave empty to cut any block"
+    export-template-background-stack:
+      name: "<success>Specify output items"
+      lore:
+        - ""
+    export-output-background-stack:
+      name: "<success>Output Slot"
+      lore:
+        - ""
+    power-display-empty:
+      name: "<click_info>Status"
+      lore:
+        - "<passive>Not connected"
+    quantum-storage-back-output:
+      name: "<passive>Output"
+      lore:
+        - ""
+    quantum-storage-set-item-supporting-custom-max:
+      name: "<success>Set"
+      lore:
+        - "<passive>Pick up item and click here to set item"
+        - "<passive>Click here to set/change capacity"
+        - "<click_info>Shift+Left-click<passive> Toggle void excess input"
+    quantum-storage-set-item:
+      name: "<success>Set"
+      lore:
+        - "<passive>Pick up item and click here to set item"
+        - "<click_info>Shift+Left-click<passive> Toggle void excess input"
+    quantum-storage-back-input:
+      name: "<passive>Input"
+      lore:
+        - ""
+    quantum-storage-no-item:
+      name: "<error>No item specified"
+      lore:
+        - "<passive>Pick up item and click the button below"
+        - "<passive>To set the item stored in quantum storage"
+    quantum-storage-back-item:
+      name: "<passive>Currently stored item"
+      lore:
+        - ""
+    quantum-workbench-craft-button-stack:
+      name: "<click_info>Click to perform quantum entanglement"
+      lore:
+        - ""
+    received-background-stack:
+      name: "<success>Received Items"
+      lore:
+        - ""
+    transmitter-template-background-stack:
+      name: "<success>Sent Items"
+      lore:
+        - ""
+    due-border-icon:
+      name: "&a← Place expected items here"
+      lore:
+        - ""
+    due-input-split-icon:
+      name: "&a↑ Expected Items & Input Items ↓"
+      lore:
+        - ""
+    input-output-split-icon:
+      name: "&a↑ Input Items & Output Items ↓"
+      lore:
+        - ""
+    decode-item:
+      name: "&6Network Decoder"
+      lore:
+        - "&7Click to decode network blueprint"
+    offset-decrease-icon:
+      name: "&aOffset -1"
+      lore:
+        - ""
+    offset-show-icon:
+      name: "&aOffset"
+      lore:
+        - "&7Current Offset: &e%s"
+    offset-increase-icon:
+      name: "&aOffset +1"
+      lore:
+        - ""
+    quick-input:
+      name: "&bQuick Deposit"
+      lore:
+        - "&7> Click here to deposit all available items"
+        - "&7from inventory into quantum storage"
+    quick-output:
+      name: "&6Quick Withdraw"
+      lore:
+        - "&7> [Left-click] Withdraw items to fill your inventory"
+        - "&7> [Right-click] Withdraw 1 item"
+        - "&7> [Shift+Right-click] Withdraw 64 items"
+    action-button:
+      name: "&6Click to Upgrade"
+      lore:
+        - ""
+    ae_switcher:
+      name: "Network Switcher"
+    diff-button:
+      name: "&6Click to view item differences"
+      lore:
+        - ""
+    diff-result-icon:
+      name: "&6Detection Result: "
+      lore:
+        - ""
+    storage-convert-button:
+      name: "&6Click to convert to storage card"
+      lore:
+        - ""
+    item-target-desc-stack:
+      name: "&6Item Target Slot"
+      lore:
+        - "&aIf this recipe has multiple outputs"
+        - "&aPlace the output item below"
+        - "&aTo specify the blueprint output item"
+    facing-presetter-help-icon:
+      name: "&6Preset Function Tutorial"
+      lore:
+        - "&aPlace network machines (monitor, pusher, grabber, etc.)"
+        - "&aThat can have facing set in the slot above"
+        - "&aClick direction buttons to preset facing for these machines"
+        - "&aSo that when placed, they immediately have facing attributes"
+    recipe-types:
+      expansion_workbench_3x3:
+        name: "Network Expansion Workbench"
+        lore:
+          - "Craft in the expansion workbench"
+      quantum_workbench:
+        name: "Network Quantum Workbench"
+        lore:
+          - "Craft in the quantum workbench"
 items:
   # DO NOT CHANGE OR DELETE THESE ANNOUNCEMENTS
   NTW_EXPANSION_ANNOUNCE_1:
@@ -2929,10 +2929,71 @@ items:
     lore:
       - "Used to craft Quantum Storage units."
 
+  NTW_QUANTUM_STORAGE_0:
+    name: "Network Quantum Storage 512"
+    lore:
+      - "Stores 512 amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_1:
+    name: "Network Quantum Storage 1"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_2:
+    name: "Network Quantum Storage 2"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_3:
+    name: "Network Quantum Storage 3"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_4:
+    name: "Network Quantum Storage 4"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_5:
+    name: "Network Quantum Storage 5"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_6:
+    name: "Network Quantum Storage 6"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+
+  NTW_QUANTUM_STORAGE_7:
+    name: "Network Quantum Storage 7"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
   NTW_QUANTUM_STORAGE_8:
-    name: "Network Quantum Storage (∞)"
+    name: "Network Quantum Storage (∞)(∞)"
     lore:
       - "Stores near-infinite amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_9:
+    name: "Network Quantum Storage 9"
+    lore:
+      - "Stores near amounts of items."
+      - ""
+      - "Stores vast quantities within a quantum singularity."
+  NTW_QUANTUM_STORAGE_10:
+    name: "Network Quantum Storage 10"
+    lore:
+      - "Stores near amounts of items."
       - ""
       - "Stores vast quantities within a quantum singularity."
 
@@ -2977,7 +3038,7 @@ items:
       - "<click_info>Power Cost: <passive>64 per craft"
 
   NTW_AUTO_CRAFTER_WITHHOLDING:
-    name: "Network Auto-Crafter (Stockpile)"
+    name: "Network Auto-Crafter (withholding)"
     lore:
       - "Requires a Crafting Blueprint to operate."
       - "Crafts until the output slot has 1 stack."
